@@ -12,6 +12,11 @@ namespace MarsRover.App
         static void Main(string[] args)
         {
 
+            //TODOS:
+            //EXCEPTİON HANDLİNG
+            //GRID SIZE OUT OF CONTROL
+            //UNIT TEST
+
             Console.WriteLine("#### Mars Rover App #### \n\n");
 
             Step step = Step.Started;

@@ -68,6 +68,10 @@ namespace MarsRover.App
                                 step = Step.Completed;
                                 isEnterNewRover = false;
                             }
+                            else
+                            {
+                                step = Step.StepPosition;
+                            }
                         }
                     }
                     plateau.Rovers = rovers;

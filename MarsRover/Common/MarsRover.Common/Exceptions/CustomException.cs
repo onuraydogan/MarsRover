@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MarsRover.Common.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,9 @@ namespace MarsRover.Common.Exceptions
 {
     public class CustomException : Exception
     {
-        public CustomException(string excp)
-       : base(excp)
+
+        public CustomException(string excp, Step step)
+       : base(string.Format("{0}-{1}", (int)step, excp))
         {
 
         }

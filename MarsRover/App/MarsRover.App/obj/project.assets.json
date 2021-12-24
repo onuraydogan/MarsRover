@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "MarsRover.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MarsRover.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MarsRover.Common.dll": {}
+        }
+      },
+      "MarsRover.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MarsRover.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MarsRover.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MarsRover.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MarsRover.Common/1.0.0": {
+      "type": "project",
+      "path": "../../Common/MarsRover.Common/MarsRover.Common.csproj",
+      "msbuildProject": "../../Common/MarsRover.Common/MarsRover.Common.csproj"
+    },
+    "MarsRover.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Core/MarsRover.Core/MarsRover.Core.csproj",
+      "msbuildProject": "../../Core/MarsRover.Core/MarsRover.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "MarsRover.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\BEYVEN\\.nuget\\packages\\": {},
@@ -37,7 +74,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\PROJECTS\\MarsRover\\MarsRover\\Core\\MarsRover.Core\\MarsRover.Core.csproj": {
+              "projectPath": "D:\\PROJECTS\\MarsRover\\MarsRover\\Core\\MarsRover.Core\\MarsRover.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

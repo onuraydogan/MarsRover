@@ -24,7 +24,7 @@ namespace MarsRover.Core.Models
                     this.Command = Command.R;
                     break;
                 default:
-                    throw new CustomException("Command not defined in the system");
+                    throw new CustomException("Command not defined in the system",Step.StepCommand);
                     
             }
         }

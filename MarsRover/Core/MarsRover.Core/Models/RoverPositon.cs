@@ -48,18 +48,18 @@ namespace MarsRover.Core.Models
                                 this.Direction = Direction.S;
                                 break;
                             default:
-                                throw new CustomException("Position not defined in the system");
+                                throw new CustomException("Position not defined in the system",Step.StepPosition);
                         }
                     }
                     else
                     {
-                        throw new CustomException("Rover position values must be greater than 0");
+                        throw new CustomException("Position values must be greater than 0", Step.StepPosition);
                     }
                 }
             }
             else
             {
-                throw new CustomException("Grid values input format is incorrect eg: 1 1 N");
+                throw new CustomException("Position values input format is incorrect eg: 1 1 N",Step.StepPosition);
             }
 
         }

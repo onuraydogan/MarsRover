@@ -1,0 +1,14 @@
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\obj\Debug\net5.0\MarsRover.Core.csproj.AssemblyReference.cache
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\obj\Debug\net5.0\MarsRover.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\obj\Debug\net5.0\MarsRover.Core.AssemblyInfoInputs.cache
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\obj\Debug\net5.0\MarsRover.Core.AssemblyInfo.cs
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\obj\Debug\net5.0\MarsRover.Core.csproj.CoreCompileInputs.cache
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\bin\Debug\net5.0\MarsRover.Core.deps.json
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\bin\Debug\net5.0\MarsRover.Core.dll
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\bin\Debug\net5.0\ref\MarsRover.Core.dll
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\bin\Debug\net5.0\MarsRover.Core.pdb
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\bin\Debug\net5.0\MarsRover.Common.dll
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\bin\Debug\net5.0\MarsRover.Common.pdb
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\obj\Debug\net5.0\MarsRover.Core.dll
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\obj\Debug\net5.0\ref\MarsRover.Core.dll
+D:\PROJECTS\MarsRover\MarsRover\Core\MarsRover.Core\obj\Debug\net5.0\MarsRover.Core.pdb

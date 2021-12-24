@@ -1,4 +1,5 @@
-﻿using MarsRover.Common.Exceptions;
+﻿using MarsRover.Common.Enums;
+using MarsRover.Common.Exceptions;
 using MarsRover.Core.Infrastructure;
 using System;
 using System.Collections.Generic;
@@ -33,17 +34,17 @@ namespace MarsRover.Core.Models
                     }
                     else
                     {
-                        throw new CustomException("Grid values must be greater than 0");
+                        throw new CustomException("Grid values must be greater than 0",Step.StepGrid);
                     }
                 }
                 else
                 {
-                    throw new CustomException("Grid values must be numbers");
+                    throw new CustomException("Grid values must be numbers", Step.StepGrid);
                 }
             }
             else
             {
-                throw new CustomException("Grid values input format is incorrect eg: 5 5");
+                throw new CustomException("Grid values input format is incorrect eg: 5 5", Step.StepGrid);
             }
         }
     }
